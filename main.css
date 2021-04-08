@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    padding-left: 20%;
+    background-color: goldenrod;
+    width: 800px;
+}
+
+#blue {
+    background-color: blue;
+    opacity: 75%;
+}
+
+#red {
+    background-color: red;
+    opacity: 75%;
+}
+
+#violet {
+    background-color: violet;
+    opacity: 75%;
+}
+
+#brown {
+    background-color: brown;
+    opacity: 75%;
+}
+
+.col {
+    height: 300px;
+    width: 500px;
+}
+
+span {
+    color: red;  
+}
