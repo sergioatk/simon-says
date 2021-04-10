@@ -36,9 +36,9 @@ h3 {
     transition: opacity 150ms;
 }
 
-.col {
-    height: 100px;
-    width: 200px;
+.color {
+    height: 35vh;
+    width: 40%;
 }
 
 span {
@@ -49,17 +49,9 @@ button {
     margin-left: 30px;
 }
 
-.alert {
+/* .alert {
     margin-left: 100px;
     margin-right: 100px;
-}
+} */
 
-.hide {
-    display: none;
-}
-
-#silly-back {
-    margin-left: 100px;
-    margin-right: 100px;
-}
 

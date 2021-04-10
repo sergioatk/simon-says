@@ -149,10 +149,28 @@ function seleccionarNuevoCuadro(e) {
 
 function perder() {
     desactivarInputUsuario();
-    alert('perdiste!');    
+    bannerPerdedor();   
     secuenciaMaquina = [];
     secuenciaUsuario = [];
     
 }
+
+function bannerPerdedor() {
+    const banner = document.querySelector('.alert');
+    const mensajeEmpezar = banner.textContent;
+
+    console.log(mensajeEmpezar);
+    
+    banner.classList.remove('alert-succes');
+    banner.classList.add('alert-danger');
+    banner.textContent = 'PERDISTE';
+
+    setTimeout(function() {
+        banner.classList.remove('alert-danger');
+        banner.classList.add('alert-success');
+        banner.textContent = mensajeEmpezar;
+    }, 3000)
+}
+
 
 
