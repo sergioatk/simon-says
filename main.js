@@ -148,7 +148,11 @@ function seleccionarNuevoCuadro(e) {
 }
 
 function perder() {
-    console.log('PERDISTE!')
+    desactivarInputUsuario();
+    alert('perdiste!');    
+    secuenciaMaquina = [];
+    secuenciaUsuario = [];
+    
 }
 
 
