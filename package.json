@@ -1,0 +1,23 @@
+{
+  "name": "simon-says",
+  "version": "1.0.0",
+  "description": "Juego de simon dice",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergioatk/simon-says.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergioatk/simon-says/issues"
+  },
+  "homepage": "https://github.com/sergioatk/simon-says#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.6.0"
+  }
+}
